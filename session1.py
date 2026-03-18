@@ -24,7 +24,16 @@ print(my_string[1])
 print(my_string[0:5])
 print(my_string[0:5:2])
 print(my_string[-1])
+print(my_string[::-1])
 
+replaced_string = my_string.replace("l", "0")
+print(my_string)
+print(replaced_string)
+
+my_list = ['a', 'b']
+my_list.append('c')
+
+print(my_list)
 
 
 
